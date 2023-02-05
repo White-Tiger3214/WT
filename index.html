@@ -1,97 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-
     <title>하얗호랑이</title>
     <meta charset="utf-8">
-
-    <style>
-
-        body {
-            background-color: white;
-            margin: 0;
-        }
-
-        a {
-                text-decoration-line: none; 
-                color: gray;
-            }
-        
-        img {
-            width: 100%;
-        }
-        
-        h1 {
-            border-bottom: 20px solid gainsboro ; border-top: 20px solid gainsboro ;
-            margin:0; padding:50px;
-            font-size: 500%;
-            text-align: center;    
-        }
-    
-        li {
-            margin-bottom:10px; 
-            font-size: 20px;
-            text-align: center;
-        }
-    
-        #grid {
-            display: grid; grid-template-columns: 290px 1fr; 
-            font-size: 20px;
-        }
-    
-        #grid ul {
-            list-style: none;
-            border-right:1px solid gray; 
-            width:250px; 
-            margin:0; margin-top: 20px; padding-left: 0;
-            color:gray;
-        }
-    
-        #grid p {
-            margin-top: 0;
-        }
-        
-        #grid div {
-            margin: 20px;
-        }
-
-        @media (max-width: 480px) {
-            h1 {
-                border-bottom: 10px solid gainsboro ; border-top: 10px solid gainsboro ;
-                padding:20px;
-                font-size: 110%;
-            }
-
-            li {
-                margin-bottom:10px; 
-                font-size: 13px;
-            }
-
-            #grid {
-                display: block;
-            }
-    
-            #grid ul {
-                border-right:none; border-bottom:1px solid gray;
-                width:100%; 
-                margin-top: 10px;
-            }
-
-            #grid p {
-                font-size: 10px;
-            }
-
-            #grid div {
-                margin: 0; margin-top: 5px;
-            }
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>This Is A Space To WhiteTiger</h1>
-    <div id="grid">
+    <h1 class="intro">This Is A Space To WhiteTiger</h1>
+    <div class="intro">
         <ul>
             <li><a href="web.html">Web Hacking</a></li>
             <li><a href="network.html">Network Hacking</a></li>
@@ -99,14 +16,14 @@
             <li><a href="app.html">Application Hacking</a></li>
         </ul>
         <div>
-            <p><strong>Hi, my name is <u style="color:gainsboro;">WonTak</u>.<br>
+            <p>Hi, my name is WonTak.<br>
                 Wellcome to visit my space. I'm a begginer hacker. This is my first web page. 
                 I can't speak English well. So, usually using the papago program. 
                 If my sentence isn't correct, I hope you enjoy it. 
                 This space will be including infomations for hacking.
                 I hope my studies will help you, too.
-                umm.... <u style="color:gainsboro;">Good Luck!</u>
-            </strong></p>
+                umm.... Good Luck!
+            </p>
             <img src="images/coding.jpg">
         </div>
     </div>
